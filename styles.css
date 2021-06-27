@@ -31,6 +31,14 @@ html, body {
   font-size: var(--mainSize);
 }
 
+h1 {
+  font-size: var(--fonts_hero);
+  font-family: var(--boldFont);
+  line-height: 4rem;
+  font-weight: 900;
+  color: var(--font_primary);
+}
+
 h2 {
   font-family: var(--boldFont);
   font-weight: 700;
@@ -113,13 +121,6 @@ nav{
 .imageHero{
     margin-top: 4rem;
 }
-.textHero h1{
-    font-size: var(--fonts_hero);
-    font-family: var(--boldFont);
-    line-height: 4rem;
-    font-weight: 900;
-    color: var(--font_primary);
-}
 
 .textHero p{
     color: var(--font_primary);
@@ -143,11 +144,6 @@ nav{
 	flex-wrap: wrap;
 }
 #service .main_content h1{
-  font-size: var(--fonts_hero);
-  font-family: var(--boldFont);
-  line-height: 2rem;
-  font-weight: 900;
-  color: var(--font_primary);
 	margin-bottom: 8px;
 }
 #service .main_content p{
@@ -225,4 +221,43 @@ nav{
 }
 .featured-item-content:nth-child(even){
   text-align: right;
+}
+
+
+/* ---------testimonial section-------- */
+
+#testimonials {
+  text-align: center;
+}
+
+#testimonials h1 {
+  margin-bottom: 4rem;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  font-family: var(--mainFont);
+  line-height: 1.5;
+  padding: 3rem;
+  color: var(--highlight);
+}
+
+.testimonial-img {
+  height: 10rem;
+  width: 10%;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.carousel-item {
+  background-color: var(--grey);
+  padding: 2rem;
+}
+
+.carousel-bg {
+  background-color: var(--darkGrey);
+  border-radius: 2rem;
+  margin: 3rem;
+  padding: 1rem;
+  box-shadow: 9px 9px 20px 0 rgba(0,0,0,0.7);
 }
