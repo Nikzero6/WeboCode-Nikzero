@@ -10,6 +10,7 @@
 
     /* fonts */
     --mainFont: 'Merriweather Sans', sans-serif;
+    --boldFont: 'Merriweather', serif;
     --mainSize: 0.875rem;
     --fonts_hero: 3rem;
     --navSize: 1rem;
@@ -29,6 +30,10 @@ html, body {
   font-size: var(--mainSize);
 }
 
+h2 {
+  font-family: var(--boldFont);
+  font-weight: 700;
+}
 /* selectors */
 .brand-shade {
   color: #fff;
@@ -102,6 +107,7 @@ nav{
 }
 .textHero h1{
     font-size: var(--fonts_hero);
+    font-family: var(--boldFont);
     line-height: 4rem;
     font-weight: 900;
     color: var(--font_primary);
@@ -109,6 +115,63 @@ nav{
 
 .textHero p{
     color: var(--font_primary);
-    font-size: var(--fonts_default);
+    font-size: var(--mainSize);
     line-height: 1.5rem;
+}
+
+/*services section*/
+#service{
+  margin-top: 10rem;
+  width: 100%;
+	background-color: #fff;
+  text-align: center;
+}
+#service .main_content{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#service .main_content h1{
+  font-size: var(--fonts_hero);
+  font-family: var(--boldFont);
+  line-height: 2rem;
+  font-weight: 900;
+  color: var(--font_primary);
+	margin-bottom: 8px;
+}
+#service .main_content p{
+	font-family: var(--mainFont);
+  font-size: 1.2rem;
+	color: gray;
+  margin-top: 0.5rem;
+}
+#service .cards{
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/Services-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+#service .cards .card{
+	width: 250px;
+	padding: 30px 12px;
+  margin: 6rem 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	background-color: #f1f1f1;
+}
+#service .cards .card i{
+	font-size: 10rem;
+	/*color: #000;*/
+}
+#service .cards .card:hover{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	transition: all .5s ease;
 }
