@@ -16,10 +16,6 @@
     --mainSize: 0.875rem;
     --fonts_hero: 3rem;
     --navSize: 1rem;
-    --fonts_subtitle: 1.625rem;
-    --fonts_component: 1.125rem;
-    --fonts_footer: 1.25rem;
-    --fonts_copyright: 0.875rem;
 }
 
 /* elements */
@@ -49,6 +45,7 @@ img {
   display: block;
   width: 100%;
 }
+
 /* selectors */
 .brand-shade {
   color: #fff;
@@ -209,7 +206,6 @@ nav{
     font-weight: 700;
     font-size: 20px;
     font-family: var(--mainFont);
-    font-weight: bold;
 }
 .featured-item{
     margin-bottom: 36px;
@@ -370,7 +366,7 @@ nav{
 }
 
 /* mobile version */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 780px){
   body {
     text-align: center;
   }
