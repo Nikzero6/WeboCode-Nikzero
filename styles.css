@@ -1,0 +1,21 @@
+
+/* elements */
+html, body {
+  color: #000;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+/* selectors */
+.brand-shade {
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 2.25rem;
+  font-family: 'Allura', cursive;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
