@@ -368,3 +368,42 @@ nav{
 .social-icons {
   font-size: 2rem;
 }
+
+/* mobile version */
+@media screen and (max-width: 480px){
+  body {
+    text-align: center;
+  }
+
+  nav {
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .backgroundHero {
+    height: 40rem;
+    width: 50%;
+  }
+
+  .backgroundHeroDark {
+    height: 40rem;
+    width: 62%;
+  }
+
+  .backgroundHeroCircle {
+    width: 50%;
+    height: 15rem;
+    left: -16%;
+    top: -15%;
+  }
+
+  .textHero{
+      margin-top: 3rem;
+  }
+  .imageHero{
+      margin-top: 3rem;
+  }
+}
