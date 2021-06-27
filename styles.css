@@ -261,3 +261,68 @@ nav{
   padding: 1rem;
   box-shadow: 9px 9px 20px 0 rgba(0,0,0,0.7);
 }
+
+/* Newsletter */
+.newsletter .container{
+    padding: 4rem;
+}
+.newsletter-content{
+    background: var(--darkGrey);
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.newsletter .title{
+    text-align: center;
+}
+.form-group{
+    margin: 30px 0;
+}
+.form-control, .subscribe-btn{
+    font-size: 18px;
+    padding: 7px 10px;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.form-control{
+    color: var(--darkGrey);
+    font-weight: 400;
+    padding: 16px 28px;
+    border-radius: 50px;
+    width: 100%;
+}
+.subscribe-btn{
+    background: var(--darkGrey);
+    color: #fff;
+    border: 1.5px solid var(--greyWhite);
+    display: block;
+    padding: 10px 28px;
+    margin: 22px auto;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.subscribe-btn:hover{
+    color: var(--grey);
+    border-color: var(--grey);
+}
+.circle-box{
+    border: 4px solid #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle-box.circle-1{
+    top: -150px;
+    left: -150px;
+}
+.circle-box.circle-2{
+    bottom: -150px;
+    right: -150px;
+}
