@@ -58,7 +58,7 @@ img {
 /* navbar */
 nav{
     margin-top: var(--top_navbar);
-    padding: 1.5rem 8rem 1.5rem 4rem;
+    padding: 1.5rem 3rem 1.5rem 4rem;
 }
 
 .navbar-brand {
