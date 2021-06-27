@@ -7,6 +7,7 @@
     --darkGrey: #525050;
     --font_primary: #1B1C22;
     --highlight: #fff;
+    --greyWhite: #f9f9f9;
 
     /* fonts */
     --mainFont: 'Merriweather Sans', sans-serif;
@@ -33,6 +34,11 @@ html, body {
 h2 {
   font-family: var(--boldFont);
   font-weight: 700;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 /* selectors */
 .brand-shade {
@@ -98,6 +104,8 @@ nav{
     border-radius: 100%;
     position: absolute;
 }
+
+
 /* hero */
 .textHero{
     margin-top: 8rem;
@@ -118,6 +126,7 @@ nav{
     font-size: var(--mainSize);
     line-height: 1.5rem;
 }
+
 
 /*services section*/
 #service{
@@ -169,9 +178,45 @@ nav{
 }
 #service .cards .card i{
 	font-size: 10rem;
-	/*color: #000;*/
 }
 #service .cards .card:hover{
 	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 	transition: all .5s ease;
+}
+
+/* featured section */
+.featured {
+  padding: 8rem 8rem;
+}
+.underline{
+    height: 5px;
+    width: 80%;
+    background: var(--greyWhite);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.featured-btns button:last-child{
+    background: white;
+    color: var(--darkGrey);
+    margin-left: 10px;
+}
+.featured-btns button:last-child:hover{
+    color: var(--grey);
+    border-color: var(--darkGrey);
+}
+.featured-item > div{
+    padding: 4rem;
+}
+.featured-item .item-price{
+    font-weight: 700;
+    font-size: 20px;
+}
+.featured-item{
+    margin-bottom: 36px;
+}
+.featured-item:nth-child(even){
+    background: var(--greyWhite);
+}
+.featured-item:last-child{
+    margin-bottom: 0;
 }
