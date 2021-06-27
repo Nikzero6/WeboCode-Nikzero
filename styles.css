@@ -234,6 +234,7 @@ nav{
 .testimonial-text {
   font-size: 2rem;
   font-family: var(--mainFont);
+  font-weight: lighter;
   line-height: 1.5;
   padding: 3rem;
   color: var(--highlight);

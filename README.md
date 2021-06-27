@@ -18,6 +18,7 @@ And presenting the brand in an elegant, minimalistic and Impactful way.
 
 #### Services Section
 - Used bootstrap cards for making 2 service boxes and gave them a hover state.
+- Used an image as a background image url for the main div and put upon a geryish film on it.
 - Used fontawesome icons here.
 
 #### featured section
