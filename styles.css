@@ -5,6 +5,7 @@
     /* color */
     --grey: #919191;
     --darkGrey: #525050;
+    --lightGrey: #d9d9d9;
     --font_primary: #1B1C22;
     --highlight: #fff;
     --greyWhite: #f9f9f9;
@@ -264,7 +265,7 @@ nav{
 
 /* Newsletter */
 .newsletter .container{
-    padding: 4rem;
+    padding: 8rem 4rem 4rem;
 }
 .newsletter-content{
     background: var(--darkGrey);
@@ -325,4 +326,45 @@ nav{
 .circle-box.circle-2{
     bottom: -150px;
     right: -150px;
+}
+
+/* footer */
+#footer{
+    margin-top: 6rem;
+    background-color: var(--lightGrey);
+    padding: 4rem 3rem 0;
+}
+.credit img{
+    margin-bottom: 1rem;
+}
+#footer h6{
+    color: var(--font_primary);
+    font-weight: 600;
+    font-size: var(--fonts_footer);
+    margin-bottom: 1rem;
+}
+#footer a{
+    text-decoration: none;
+    color: var(--font_primary);
+    margin-bottom: -2rem;
+}
+.contact a{
+    margin-right: 0.7rem;
+}
+.support {
+    margin-top: -0.2rem;
+}
+.about {
+    margin-top: -0.2rem;
+}
+.contact {
+    margin-top: -0.2rem;
+}
+.copyright{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.social-icons {
+  font-size: 2rem;
 }
