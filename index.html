@@ -18,11 +18,18 @@
 
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/e3eab5d18a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <section class="header">
+
+    <div class="backgroundHero"></div>
+    <div class="backgroundHeroDark"></div>
+    <div class="backgroundHeroCircle"></div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container-fluid">
@@ -36,22 +43,42 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Products</a>
+              <a class="nav-link" aria-current="page" href="#">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Search icon</a>
+              <a class="nav-link" aria-current="page" href="#"><i class="fas fa-search"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Shop icon</a>
+              <a class="nav-link" aria-current="page" href="#"><i class="fas fa-shopping-cart"></i></a>
             </li>
         </div>
       </div>
     </nav>
 
   </section>
+
+  <!-- Hero Section -->
+  <section id="home">
+      <div class="container">
+          <div class="row hero">
+              <div class="col-md-5 textHero">
+                  <h1>Designs for your <span class="brand-shade">Kom</span>fort</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                      elit ut aliquam, purus sit amet luctus venenatis, <br>
+                      lectus magna fringilla urna, porttitor rhoncus dolor <br>
+                      purus non.</p>
+                  <a href="#" class="btn btn-secondary btn-lg">Shop Now</a>
+              </div>
+              <div class="col-md-7 imageHero">
+                  <img class="img-fluid" src="images/header-img.jpg" alt="hero image">
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- End Hero Section -->
 
 </body>
 

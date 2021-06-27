@@ -1,21 +1,114 @@
+:root{
+    /* size margin */
+    --top_navbar: 2rem;
+
+    /* color */
+    --grey: #919191;
+    --darkGrey: #525050;
+    --font_primary: #1B1C22;
+    --highlight: #fff;
+
+    /* fonts */
+    --mainFont: 'Merriweather Sans', sans-serif;
+    --mainSize: 0.875rem;
+    --fonts_hero: 3rem;
+    --navSize: 1rem;
+    --fonts_subtitle: 1.625rem;
+    --fonts_component: 1.125rem;
+    --fonts_footer: 1.25rem;
+    --fonts_copyright: 0.875rem;
+}
 
 /* elements */
 html, body {
-  color: #000;
-  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--font_primary);
+  font-family: var(--mainFont);
   font-weight: 300;
-  font-size: 0.875rem;
+  font-size: var(--mainSize);
 }
 
 /* selectors */
 .brand-shade {
   color: #fff;
 }
+
+
+/* navbar */
+nav{
+    margin-top: var(--top_navbar);
+    padding: 1.5rem 8rem 1.5rem 4rem;
+}
+
 .navbar-brand {
   font-size: 2.25rem;
   font-family: 'Allura', cursive;
 }
 
-.navbar-nav {
-  margin-left: auto;
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-nav > li{
+    margin-left: 2rem;
+}
+
+.nav-item{
+    font-size: var(--navSize);
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--highlight);
+}
+
+.backgroundHero {
+    height: 47rem;
+    width: 40%;
+    z-index: -3;
+    background-color: var(--grey);
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.backgroundHeroDark {
+    height: 47rem;
+    width: 44%;
+    z-index: -4;
+    background-color: var(--darkGrey);
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.backgroundHeroCircle{
+    width: 50%;
+    height: 50rem;
+    z-index: -3;
+    background-color: var(--grey);
+    left: -22%;
+    top: -53%;
+    border-radius: 100%;
+    position: absolute;
+}
+/* hero */
+.textHero{
+    margin-top: 8rem;
+}
+.imageHero{
+    margin-top: 4rem;
+}
+.textHero h1{
+    font-size: var(--fonts_hero);
+    line-height: 4rem;
+    font-weight: 900;
+    color: var(--font_primary);
+}
+
+.textHero p{
+    color: var(--font_primary);
+    font-size: var(--fonts_default);
+    line-height: 1.5rem;
 }
