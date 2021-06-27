@@ -1,4 +1,5 @@
 # WebOCode-Nikzero
+[livesite](https://nikzero6.github.io/WeboCode-Nikzero/)
 
 ### Theme: Furniture e-commerce website
 The Basic Idea of this website is to give a Luxurious feel.  
@@ -26,7 +27,7 @@ And presenting the brand in an elegant, minimalistic and Impactful way.
 
 #### Testimonials section
 - Used bootstrap carousel with buttons and indicators for making slide show of testimonials.
-- Used the code from my Previous project [Tindog]{} for saving time.
+- Used the code from my Previous project [Tindog](https://github.com/Nikzero6/TinDog-Start-master) for saving time.
 - Added extra background and box shadow to my Previous code.
 
 #### Newsletter section
